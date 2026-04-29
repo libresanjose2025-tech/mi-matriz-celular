@@ -7,7 +7,7 @@ st.set_page_config(page_title="Sistema de Inventario", layout="wide")
 
 # --- CONEXIÓN CON GOOGLE SHEETS ---
 # REEMPLAZA EL LINK DE ABAJO POR EL QUE COPIASTE DE TU HOJA DE GOOGLE
-url = https://docs.google.com/spreadsheets/d/1UgzToZxFtQd3ygeqR6ITgzWLOnSnQqPXiLgV-aGR5CM/edit?usp=sharing
+url = "https://docs.google.com/spreadsheets/d/1UgzToZxFtQd3ygeqR6ITgzWLOnSnQqPXiLgV-aGR5CM/edit?usp=sharing"
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 
