@@ -3,7 +3,7 @@ from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 
 st.set_page_config(page_title="Sistema Inventario", layout="wide")
-url = "TU_LINK_DE_GOOGLE_SHEETS_AQUI"
+url = "https://docs.google.com/spreadsheets/d/1UgzToZxFtQd3ygeqR6ITgzWLOnSnQqPXiLgV-aGR5CM/edit?usp=sharing"
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # Leer datos
